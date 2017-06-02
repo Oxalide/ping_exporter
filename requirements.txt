@@ -1,0 +1,4 @@
+requests
+prometheus_client
+coloredlogs
+git+git://github.com/certator/pyping.git@f46efb2f4a868c9d0fa4210e4a8909696ed9238c#egg=pyping
