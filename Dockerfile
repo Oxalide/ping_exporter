@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 ADD exporter.py ./
 
 ENTRYPOINT ["python", "exporter.py"]
-CMD --target www.oxalide.com --icmp --tcp 80 443
+CMD ["--target", "www.oxalide.com", "--icmp", "--tcp", "80", "443" ]
